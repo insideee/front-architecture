@@ -1,0 +1,6 @@
+<RCC>
+    <qresource>
+    <file>./fonts/Ubuntu-Italic.ttf</file>
+    <file>./fonts/Ubuntu-Regular.ttf</file>
+    </qresource>
+</RCC>

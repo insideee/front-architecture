@@ -1,0 +1,6 @@
+API_URL = 'http://127.0.0.1:8000'
+# API_URL = 'https://apathetic-api.xyz'
+ADMIN_ACCESS = 4
+SUBSCRIBER_ACCESS = 3
+SELLER_ACCESS = 2
+NORMAL_USER_ACCESS = 1
