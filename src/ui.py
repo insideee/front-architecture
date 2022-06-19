@@ -35,8 +35,9 @@ class UiApp(object):
         self._bg_container.setStyleSheet(stylesheet.app_bg)
 
         self._components_container = QStackedWidget()
+        self._bg_container.layout().addWidget(self._components_container)
         app.setCentralWidget(self._bg_container)
-
+        
         self._foo = components.Foo(app)
         self._components_container.addWidget(self._foo)
 
